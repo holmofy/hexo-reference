@@ -2,7 +2,8 @@
 
 var md = require('markdown-it')({
     // allow HTML tags
-    html: true
+    html: true,
+    linkify: true
 });
 
 /**
